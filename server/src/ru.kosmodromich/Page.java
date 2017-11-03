@@ -1,6 +1,8 @@
 package ru.kosmodromich;
 
-public class Page {
+import java.io.Serializable;
+
+public class Page implements Serializable{
     private long id;
     private long size;
 
